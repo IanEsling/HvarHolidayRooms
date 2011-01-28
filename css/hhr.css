@@ -5,13 +5,12 @@ html, body {
 }
 
 #background {
-    position: fixed;
     top: 0;
     left: 0;
     padding-left: 0;
     width: 100%;
     height: 100%;
-    background-color: azure;
+    background-color: #f0ffff;/*azure*/
 }
 
 .header, .nav, .main {
@@ -25,7 +24,7 @@ h2 {
 }
 
 .main {
-    color: slategray;
+    color: #708090;/*slategray*/
     font-size: 1.1em;
 }
 
@@ -48,15 +47,24 @@ li a {
     position: relative;
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-left: 32px;
-    padding-right: 32px;
+    padding-left: 25px;
+    padding-right: 25px;
     display: block;
     color: black;
     text-decoration: none;
 }
 
+p a {
+    color: #708090;/*slategray*/
+}
+
+p a:hover {
+    color: black;
+    background-color: #f0ffff;
+}
+
 a:hover {
-    background-color: darkgray;
+    background-color: #a9a9a9;/*dark gray*/
 }
 
 #bottom_content {
