@@ -19,6 +19,10 @@ html, body {
     margin-right: auto;
 }
 
+.header {
+    padding-top: 10px;
+}
+
 h2 {
     font-size: 1.3em;
 }
@@ -61,6 +65,10 @@ p a {
 p a:hover {
     color: black;
     background-color: #f0ffff;
+}
+
+.yoga p {
+    text-align: center;
 }
 
 a:hover {
