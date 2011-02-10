@@ -58,6 +58,10 @@ li a {
     text-decoration: none;
 }
 
+li a.selected {
+    font-weight:bold;
+}
+
 p a {
     color: #708090;/*slategray*/
 }

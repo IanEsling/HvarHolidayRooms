@@ -6,20 +6,32 @@
     <title>Hvar Holiday Rooms</title>
     <link rel="stylesheet" type="text/css" href="./css/reset-min.css">
     <link rel="stylesheet" type="text/css" href="./css/hhr.css">
-    <script type="text/javascript" src="js/prototype.js"></script>
-    <script type="text/javascript" src="js/scriptaculous.js?load=effects,builder"></script>
-    <script type="text/javascript" src="js/lightbox.js"></script>
-    <link rel="stylesheet" href="css/lightbox.css" type="text/css" media="screen"/>
+    <script type="text/javascript" src="js/jquery-1.4.4.min.js"></script>
+    <script type="text/javascript" src="js/jquery.cycle.lite.1.0.min.js"></script>
+    <script type="text/javascript">
+        $(function() {
+            $('#banners').cycle();
+        })
+    </script>
 </head>
 <body>
 <div id="background">
-    <div class="header"><img src="./images/banner_yoga5.jpg" alt="Dol"></div>
+    <div class="header" style="margin-bottom:283px;">
+        <div id="banners">
+            <img src="./images/banner_yoga5.jpg" alt="Dol">
+            <img src="./images/banner_yoga4.JPG" alt="Dol">
+            <img src="./images/banner_yoga3.JPG" alt="Dol">
+            <img src="./images/banner_yoga2.JPG" alt="Dol">
+            <img src="./images/banner_yoga.JPG" alt="Dol">
+
+        </div>
+    </div>
     <div class="nav">
         <ul>
             <li><a href="./index.html">Home</a></li>
             <li><a href="./rooms.html">Rooms</a></li>
             <li><a href="./island.html">The Island</a></li>
-            <li><a href="./yoga.html">Yoga</a></li>
+            <li><a class="selected" href="./yoga.html">Yoga</a></li>
             <li><a href="./about.html">About Us</a></li>
             <li><a href="./faq.html">FAQ</a></li>
             <li><a href="./contact.html">Contact</a></li>
