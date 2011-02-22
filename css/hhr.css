@@ -2,7 +2,7 @@ html, body {
     font-family: arial, serif;
     margin: 0;
     height: 100%;
-    background-color: #f0ffff;/*azure*/
+    background-color: #f0ffff; /*azure*/
 }
 
 #background {
@@ -28,7 +28,7 @@ h2 {
 }
 
 .main {
-    color: #708090;/*slategray*/
+    color: #708090; /*slategray*/
     font-size: 1.1em;
 }
 
@@ -59,11 +59,11 @@ li a {
 }
 
 li a.selected {
-    font-weight:bold;
+    font-weight: bold;
 }
 
 p a {
-    color: #708090;/*slategray*/
+    color: #708090; /*slategray*/
 }
 
 p a:hover {
@@ -75,8 +75,16 @@ p a:hover {
     text-align: center;
 }
 
+.q, .a {
+    text-align: left;
+}
+
+.q {
+    font-weight: bold;
+}
+
 a:hover {
-    background-color: #a9a9a9;/*dark gray*/
+    background-color: #a9a9a9; /*dark gray*/
 }
 
 #top_content {
