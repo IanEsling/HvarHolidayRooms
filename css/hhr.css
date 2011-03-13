@@ -49,10 +49,7 @@ li {
 
 li a {
     position: relative;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding: 10px 22px;
     display: block;
     color: black;
     text-decoration: none;
